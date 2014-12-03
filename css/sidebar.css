@@ -1,0 +1,1266 @@
+/**======= Sidebar Wrap =======**/
+.ipChatSidebar {
+  background-clip: padding-box;
+  border-left: none;
+  display: none;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  right: auto;
+  top: 0;
+  width: 205px;
+  z-index: 10001;
+  user-select: none;
+}
+.dockedSidebar.ipChatSidebar {
+  overflow: hidden;
+  width: 51px;
+  margin-left: -60px;
+}
+.dockedSidebar ._50zw div.rfloat {
+  float: left !important;
+}
+.dockedSidebar .active_time.icon,
+.dockedSidebar ._52zl,
+.dockedSidebar ._52zk,
+.dockedSidebar ._4-th,
+.dockedSidebar ._4g5y,
+.dockedSidebar ._4-k7 {
+  display: none !important;
+}
+.dockedSidebar ._42fz .status {
+  margin-left: -7px !important;
+}
+._59j-,
+._5ap0,
+._4g5r .ipChatSidebar {
+  /*transform: translateZ(0);*/
+}
+.sidebarMode .ipChatSidebar {
+  display: block;
+  /*overflow: hidden !important;*/
+}
+.sidebarMode .ipChatSidebar.noPreventFyout,
+.sidebarMode .ipChatSidebar.noPreventFyout .uiScrollableAreaWrap.scrollable._pts {
+  overflow: visible !important;
+}
+.ipChatSidebar,
+._4i9v {
+  right: auto;
+}
+._59j-,
+._4-tc,
+._4i9v {
+  width: 205px;
+}
+.ipChatSidebar,
+._5ap0,
+._56h3 {
+  font-smoothing: antialiased;
+  font-weight: 400;
+}
+  /**======= users list =======**/
+  ._4g5v {
+    padding: 0 0 5px;
+    /*padding-bottom: 8px;*/
+    padding-bottom: 0;
+  }
+  .user-box {
+    position: fixed;
+    background: #fff;
+    height: 32px;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: -5px;
+    z-index: 10002 !important;
+  }
+  .user-box-name {
+    padding-right: 29px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+    /**======= current user =======**/
+    div._4g5v ._521h {
+      position: relative;
+    }
+    ._4g5p {
+      display: block;
+      padding: 2px 30px 2px 8px;
+      position: relative;
+    }
+    ._4g5p:focus,
+    ._4g5p:hover,
+    ._4gcf:focus,
+    ._4gcf:hover,
+    ._4g5p:focus ._4vsz,
+    ._4g5p:hover ._4vsz,
+    ._4gb_:focus,
+    ._4gb_:hover {
+      outline: none;
+    }
+    ._4g5r ._4g5p:hover,
+    ._4gcf:hover {
+      text-decoration: none;
+    }
+    ._521g {
+      
+    }
+    ._521g:hover {
+      
+    }
+    div._4g5v ._521g {
+      height: 31px;
+      padding: 9px 20px 2px 8px;
+    }
+      /**======= privacy settings icon =======**/
+      ._4vsz {
+        height: 24px;
+        line-height: 22px;
+        padding-right: 12px;
+        position: absolute;
+        right: 0;
+        width: 10px;
+      }
+      ._5ap0 ._4vsz,
+      ._5468 ._4vsz {
+        
+      }
+      ._4r38 {
+        margin-top: -16px;
+        position: absolute;
+        right: 2px;
+        top: 50%;
+        z-index: 1;
+      }
+      a._4r38 {
+        right: 27px;
+        font-size: 14px;
+        margin-top: -10px;
+      }
+      a._4r38:hover {
+        
+      }
+      .dockedSidebar a._4r38 {
+        left: 15px;
+        right: auto;
+        font-size: 23px;
+      }
+      ._4r39 {
+        display: block;
+        height: 12px;
+        width: 9px;
+        font-size: 13px;
+      }
+      ._4r38._4trx ._4r39,
+      ._4r38:hover ._4r39 {
+        
+      }
+      /**======= profile picture =======**/
+      ._4-k7 {
+        float: left;
+        margin-right: 8px;
+        position: relative;
+      }
+      ._4-k7,
+      ._4g5w,
+      ._4g5x {
+        height: 24px;
+        width: 24px;
+      }
+      ._4g5y {
+        height: 24px;
+        line-height: 24px;
+        margin-left: 32px;
+      }
+      /**======= section divider =======**/
+      ._526x {
+        padding-bottom: 4px;
+      }
+      ._53dd {
+        height: 2px;
+      }
+  /**======= sidebar body =======**/
+  .ipChatSidebar .ipChatSidebarBody {
+    overflow: hidden;
+    position: static;
+  }
+    /**======= ordered list =======**/
+    .ipChatSidebar .ipChatOrderedList,
+    .ipChatSidebar .ipChatTypeaheadView {
+      padding-top: 8px;
+    }
+    ._5468.ipChatSidebar .ipChatTypeaheadView,
+    ._5468.ipChatSidebar .ipChatOrderedList {
+      padding-bottom: 4px;
+      padding-top: 0;
+    }
+      /**======= list item =======**/
+      ._554m,
+      ._42fz {
+        float: left;
+        width: 100%;
+      }
+      ._5468 ._42fz,
+      ._5468 ._554m {
+        float: none;
+        outline: 0;
+      }
+      /* line divider */
+      ._554m {
+        display: table;
+        height: 32px;
+        user-select: none;
+      }
+      ._5468 ._554m {
+        height: 2px;
+        margin: 7px 0 8px;
+      }
+      ._554o {
+        display: table-cell;
+        vertical-align: middle;
+      }
+      ._554n {
+        cursor: pointer;
+        position: relative;
+        text-align: center;
+        top: -50%;
+        z-index: 1;
+      }
+      ._554p {
+        display: inline-block;
+        font-size: 9px;
+        font-weight: bold;
+        padding: 0 5px;
+        text-transform: uppercase;
+      }
+      ._58vt ._554p,
+      ._4mq2 ._554p {
+        font-size: 10px;
+      }
+      ._554v {
+        display: none;
+      }
+      ._554v:first-letter {
+        vertical-align: 1px;
+      }
+      ._554q {
+        left: 0;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        z-index: -1;
+      }
+      ._554r {
+        display: block;
+        border-bottom: 1px solid #3c3f48;
+        border-top: 1px solid #25282e;
+        margin: 0;
+      }
+      /* /- line divider */
+      ._42fz a {
+        display: block;
+        padding: 2px 8px 2px 5px;
+        position: relative;
+        padding-bottom: 2px;
+        padding-top: 2px;
+      }
+      .ipChat li.single-row {
+        padding: 10px;
+      }
+      ._42fz a,
+      ._42g6,
+      ._42i3,
+      ._57zm,
+      ._42g6,
+      ._42i3 {
+        
+      }
+      ._4mq2 ._42fz a {
+        padding: 4px 8px;
+      }
+      ._56yf a:focus,
+      ._56yf a:hover,
+      ._56yf a.selected,
+      ._42fz a:focus,
+      ._42fz a:hover,
+      ._42fz a.selected {
+        outline: none;
+      }
+      .dockedSidebar ._42fz a:focus,
+      .dockedSidebar ._42fz a:hover,
+      .dockedSidebar ._42fz a.selected {
+        z-index: 101;
+      }
+      .dockedSidebar .uiScrollableAreaTrack {
+        right: 156px !important;
+      }
+      ._54sp,
+      ._54sk {
+        display: none;
+      }
+      ._52xa {
+        cursor: pointer;
+        left: 0;
+        padding: 7px;
+        position: absolute;
+        top: 0;
+      }
+      ._52xb {
+        background-image: url(../images/Dsi_TEyAAzN.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: -146px -53px;
+        display: block;
+        height: 16px;
+        opacity: .8;
+        transition: opacity .2s;
+        width: 16px;
+      }
+      /* picture */
+      ._4mq2 ._42fz .pic_container {
+        float: left;
+        height: 24px;
+        margin-right: 8px;
+        position: relative;
+        width: 24px;
+      }
+      .dockedSidebar .pic_container {
+        margin-left: 0;
+      }
+      ._42fz .pic {
+        float: left;
+        height: 28px;
+        margin-right: 8px;
+        width: 28px;
+        border: 0;
+      }
+      ._57dj ._42fz i.pic,
+      ._5468 ._42fz i.pic {
+        float: none;
+        height: 24px;
+        margin: 0;
+        width: 24px;
+        display: block;
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+      /* /- picture */
+      ._52s1 {
+        background-image: url(../images/OE5JMPL0yg5.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: -135px -545px;
+        height: 11px;
+        position: absolute;
+        right: 10px;
+        top: 9px;
+        width: 12px;
+      }
+      /* status icon */
+      ._42fz .icon_container {
+        float: right;
+        height: 28px;
+        line-height: 24px;
+        margin-left: 6px;
+      }
+      ._4mq2 ._42fz .icon_container {
+        height: 24px;
+      }
+      ._5ap0 ._42fz .icon_container,
+      ._5468 ._42fz .icon_container {
+        display: block;
+        position: relative;
+        right: 3px;
+      }
+      ._42fz a:focus .icon_container,
+      ._42fz a:hover .icon_container {
+        background: transparent;
+      }
+      /* message count */
+      ._550_ {
+        display: none;
+        text-align: center;
+      }
+      ._5468 ._550_ {
+        background-image: url(../images/OE5JMPL0yg5.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: -13px -690px;
+        color: #c2c4cc;
+        font-size: 10px;
+        height: 17px;
+        line-height: 17px;
+        width: 12px;
+      }
+      ._550- ._550_ {
+        display: inline-block;
+      }
+      ._42fz a:hover ._550_ {
+        background-image: url(../images/OE5JMPL0yg5.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: 0 -690px;
+      }
+      /* /- message count */
+      ._42fz .icon {
+        margin-right: 0;
+        vertical-align: middle;
+      }
+      ._42fz .active_time {
+        display: inline-block;
+        font-size: 9px;
+        font-weight: bold;
+        text-shadow: none;
+        vertical-align: baseline;
+      }
+      ._42fz .status {
+        display: inline-block;
+        height: 14px;
+        width: 14px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-attachment: scroll;
+        background-color: transparent;
+      }
+      ._42fz.online .status {
+        background-image: url(../images/icons/icon-status-online.png);
+      }
+      ._42fz.busy .status {
+        background-image: url(../images/icons/icon-status-busy.png);
+      }
+      ._5468 ._42fz .icon {
+        margin-right: 0;
+      }
+      ._5468 ._42fz .status {
+        margin-left: 4px;
+      }
+      ._5468 ._42fz .icon.status {
+        margin-right: 1px;
+      }
+      ._4mq2 ._42fz.active .status {
+        background-image: url(../images/Dsi_TEyAAzN.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: -282px -53px;
+        height: 9px;
+        width: 9px;
+      }
+      /* /- status icon */
+      /* user name */
+      ._52zl {
+        line-height: 28px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      ._4mq2 ._52zl {
+        line-height: 24px;
+      }
+      ._52zk {
+        color: #66707f;
+      }
+      /* /- user name */
+    /**======= ipChatTypeaheadView =======**/
+    .ipChatSidebar .ipChatTypeaheadView {
+      bottom: 0;
+      position: absolute;
+      top: auto;
+      width: 100%;
+    }
+    ._5468.ipChatSidebar .ipChatTypeaheadView,
+    ._5468.ipChatSidebar .ipChatOrderedList {
+      padding-bottom: 4px;
+      padding-top: 0;
+    }
+    /**======= sidebar message =======**/
+    .ipChatSidebar .ipChatSidebarMessage {
+      padding: 8px;
+    }
+    ._5468.ipChatSidebar div.ipChatSidebarMessage {
+      display: none;
+    }
+    .ipChatSidebar .ipChatSidebarMessage .img {
+      float: left;
+      margin-top: 3px;
+      border: 0;
+    }
+    /**======= search & options =======**/
+    ._4--r {
+      outline: 0;
+    }
+    ._5383,
+    ._50nn,
+    ._50nm,
+    ._4kdq ._4-q5 {
+      display: none;
+    }
+    .ipChatSidebar ._4-q5 {
+      
+    }
+    ._58vt ._4oes,
+    ._5468 ._4oes {
+      bottom: auto;
+      position: static;
+    }
+    .ipChatSidebar .ipChatTypeahead,
+    .ipbChatSidebar .ipChatTypeahead .wrap {
+      border: 0;
+    }
+    ._57du.ipChatTypeahead {
+      width: 132px;
+      background: transparent;
+    }
+    ._57du.ipChatTypeahead,
+    ._57du.ipChatTypeahead .wrap {
+      border: 0;
+    }
+    /* input bg */
+    ._57dv {
+      left: 8px;
+      position: absolute;
+      top: 6px;
+    }
+    ._57dw,
+    ._57dx,
+    ._57dy {
+      display: inline-block;
+      height: 19px;
+      width: 12px;
+      float: left;
+    }
+    ._57dw {
+      
+    }
+    ._57dx {
+      width: 72px;
+    }
+    ._57dy {
+      
+    }
+    /* /- input bg */
+    /* close button */
+    ._42ft {
+      cursor: pointer;
+      display: inline-block;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    ._50zy {
+      background-color: transparent;
+      border: 0 none;
+      cursor: pointer;
+      font-size: 0 !important;
+      overflow: hidden;
+      padding: 0;
+      vertical-align: middle;
+    }
+    ._50-0 {
+      height: 12px;
+      width: 12px;
+    }
+    ._50-0._50z- {
+      
+    }
+    ._57du.ipChatTypeahead .uiCloseButton,
+    ._57du.ipChatTypeahead .uiTypeaheadCloseButton {
+      height: 13px;
+      right: 9px;
+      width: 12px;
+      z-index: 1;
+    }
+    ._57du.ipChatTypeahead.uiTypeaheadHasText .uiCloseButton,
+    ._57du.ipChatTypeahead.uiTypeaheadHasText .uiTypeaheadCloseButton {
+      font-size: 14px !important;
+      margin-top: -8px !important;
+      right: 11px;
+    }
+    .webkit ._57du.ipChatTypeahead.uiTypeaheadHasText .uiCloseButton,
+    ._57du.ipChatTypeahead.uiTypeaheadHasText .uiTypeaheadCloseButton {
+      margin-top: -7px !important;
+      right: 16px;
+    }
+    ._57du.ipChatTypeahead.uiTypeaheadHasText .uiCloseButton:hover,
+    ._57du.ipChatTypeahead.uiTypeaheadHasText .uiTypeaheadCloseButton:hover {
+      
+    }
+    /* /- close button */
+    /* input search */
+    ._57du.ipChatTypeahead .innerWrap {
+      position: relative;
+    }
+    .ipChatSidebar .ipChatTypeahead .textInput {
+      box-sizing: border-box;
+      height: 24px;
+      padding-left: 20px;
+      padding-right: 25px;
+    }
+    ._57du.ipChatTypeahead.uiTypeahead.uiTypeaheadHasText .textInput,
+    ._57du.ipChatTypeahead.uiTypeahead.uiTypeaheadHasText .textInput::-webkit-input-placeholder {
+      
+    }
+    ._57du.ipChatTypeahead.uiTypeahead .textInput {
+      background-color: transparent;
+      height: 31px;
+      padding: 0;
+      padding-left: 12px;
+      padding-top: 0px;
+    }
+    /* /- input search */
+    .ipChatTypeahead .uiLoadingIndicatorAsync {
+      display: none;
+      position: absolute;
+      margin-top: -8px;
+      right: 16px;
+      top: 50%;
+      width: 16px;
+      height: 16px;
+      background: transparent url("../images/ipl-16.gif") center center no-repeat;
+    }
+    .webkit .ipChatTypeahead .uiLoadingIndicatorAsync {
+      right: 17px;
+    }
+    .ipChatTypeahead.uiTypeaheadHasText.uiTypeaheadProessing .uiLoadingIndicatorAsync,
+    .ipChatTypeahead.uiTypeaheadHasText.uiTypeaheadProessing:hover .uiTypeaheadCloseButton,
+    .ipChatTypeahead.uiTypeaheadHasText .uiTypeaheadCloseButton {
+      display: block;
+    }
+    .ipChatTypeahead.uiTypeaheadHasText.uiTypeaheadProessing:hover .uiLoadingIndicatorAsync,
+    .ipChatTypeahead.uiTypeaheadHasText.uiTypeaheadProessing .uiTypeaheadCloseButton {
+      display: none;
+    }
+    /* buttons */
+    .ui-options + .uiSelectorMenuWrapper {
+      right: -74px;
+      max-width: 200px;
+      width: 180px;
+      bottom: auto;
+    }
+    .ui-messages + .uiSelectorMenuWrapper {
+      max-width: 450px;
+      right: -257px;
+      z-index: 101;
+      background: #FFF;
+      width: 430px;
+    }
+    .ui-messages + .uiSelectorMenuWrapper .uiMenu {
+      max-height: 400px;
+    }
+    .ui-notifications + .uiSelectorMenuWrapper {
+      right: -85px;
+      max-width: 250px;
+      width: 194px;
+    }
+    ._58vt ._4oes .button,
+    ._5468 ._4oes .button {
+      border: 0;
+      box-shadow: none;
+      height: 32px;
+      width: 24px;
+    }
+    div.ipChatSidebarDropdown .uiCloseButton {
+      border: 0;
+      height: 32px;
+      width: 24px;
+      line-height: 29px;
+      text-align: center;
+      font-size: 14px;
+    }
+    ._5468.ipChatSidebar .ipChatSidebarDropdown .uiCloseButton:hover,
+    ._4g5r ._56h3 .ipChatSidebarDropdown .uiCloseButton:hover {
+      
+    }
+    .ipChatSidebarDropdown .uiMenuItem .itemLabel {
+      white-space: nowrap;
+      width: 120px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 100%;
+    }
+
+    ._51sj {
+      display: inline-block;
+      height: 32px;
+      margin-right: 0;
+      vertical-align: top;
+      width: 24px;
+      line-height: 31px;
+      text-align: center;
+      font-size: 14px;
+      vertical-align: middle;
+    }
+
+    li.spinner-elem {
+      text-align: center;
+    }
+
+._4kt > li {
+  cursor: pointer;
+  padding: 0;
+}
+._4kt > li:first-child {
+  padding-top: 0;
+}
+._4kt > li:last-child {
+  padding-bottom: 0;
+}
+.jewelContent li {
+  border-top: 0;
+}
+li.jewelItemNew {
+  
+}
+._4kt li a {
+  display: block;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: -1px;
+  padding: 4px 20px 4px 8px;
+  position: relative;
+}
+.jewelContent li:last-child a {
+  border: 0 none;
+}
+.jewelContent a.messagesContent:hover,
+.jewelContent a.messagesContent:active,
+.jewelContent a.messagesContent:focus {
+  position: relative;
+  z-index: 1;
+}
+.jewelContent li:first-child a.messagesContent,
+.jewelContent li:first-child a.messagesContent:hover,
+.jewelContent li:first-child a.messagesContent:active,
+.jewelContent li:first-child a.messagesContent:focus {
+  
+}
+.MercuryThreadImage,
+._55lt {
+  width: 50px;
+  height: 50px;
+}
+._8o,
+._8o .img {
+  display: block;
+}
+._8s {
+  margin-right: 8px;
+}
+._55lt img {
+  display: block;
+  border: 0;
+}
+._55lu {
+  box-sizing: border-box;
+  float: left;
+  overflow: hidden;
+}
+._57pl {
+  
+}
+._57pm {
+  
+}
+._57xo {
+  
+}
+._42ef {
+  overflow: hidden;
+}
+.snippetThumbnail {
+  padding-top: 3px;
+}
+._56hv,
+._56hy {
+  display: inline-block;
+  margin-left: 7px;
+  margin-right: 2px;
+  outline: none;
+  padding: 2px;
+  position: relative;
+}
+._56hv i,
+._56hy {
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 38px;
+  width: 52px;
+}
+._56hy {
+  position: absolute;
+  transform: rotate(5deg);
+}
+._4kt .content {
+  display: block;
+  width: auto;
+}
+._4kt .content .author {
+  font-weight: bold;
+  padding-top: 2px;
+  white-space: normal;
+}
+._4kt .content .preview {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-top: 1px;
+}
+._4kt .content .preview span:first-child i {
+  margin-right: 5px;
+  font-size: 10px;
+  margin-top: -3px;
+}
+._4kt .content .time {
+  font-size: 9px;
+}
+._4kt .content .timestamp {
+  font-size: 11px;
+  font-size: 9px;
+  padding-top: 2px;
+  display: block;
+}
+.jewelLoading {
+  display: block;
+  margin: 10px auto;
+}
+
+.bl-conv {
+  padding: 10px;
+  background: #f2f5f5;
+}
+.ubl-conv {
+  padding: 10px;
+  background: #fff;
+  border-top: 1px solid #D8D8D8;
+}
+
+.ipProfileBrowserResult {
+  font-size: 12px;
+  max-height: 300px;
+  line-height: 14px;
+  overflow-y: auto;
+  position: relative;
+}
+li.multiColumnCheckable {
+  float: left;
+  margin: 5px 0 0 5px;
+  overflow: hidden;
+  width: 262px;
+}
+.threeColumns .multiColumnCheckable {
+  width: 173px;
+}
+.fourColumns .multiColumnCheckable {
+  width: 154px;
+}
+.multiColumnCheckable .checkbox {
+  float: left;
+  margin: 23px 8px 0 6px;
+  appearance: checkbox;
+}
+.threeColumns .multiColumnCheckable .checkbox {
+  margin: 12px 6px 0;
+}
+.fourColumns .multiColumnCheckable .checkbox {
+  margin: 14px 8px 0;
+}
+.multiColumnCheckable .anchor {
+  border: 1px solid #FFF;
+  display: block;
+  outline: none;
+  padding: 6px;
+}
+.multiColumnCheckable .anchor:hover {
+  background-color: #ECEFF5;
+  border-color: #ECEFF5;
+}
+.multiColumnCheckable.selectedCheckable .anchor {
+  background-color: #D8DFEA;
+  border-color: #C3CCE1;
+}
+.disabledCheckable .anchor, .disabledCheckable .anchor:hover {
+  background: #FFF;
+  cursor: default;
+  opacity: .3;
+  outline: none;
+}
+.threeColumns .multiColumnCheckable .anchor {
+  padding: 2px;
+}
+.fourColumns .multiColumnCheckable .anchor {
+  padding: 4px;
+}
+.threeColumns .multiColumnCheckable img {
+  height: 30px;
+  margin-right: 5px;
+  width: 30px;
+}
+.fourColumns .multiColumnCheckable img {
+  height: 30px;
+  margin-right: 5px;
+  width: 30px;
+}
+.threeColumns .multiColumnCheckable .content,
+.threeColumns .multiColumnCheckable .spacer {
+  height: 30px;
+}
+.fourColumns .multiColumnCheckable .content,
+.fourColumns .multiColumnCheckable .spacer {
+  height: 30px;
+}
+.threeColumns .multiColumnCheckable .text {
+  font-weight: normal;
+  width: 105px;
+  word-wrap: break-word;
+}
+.fourColumns .multiColumnCheckable .text {
+  font-weight: normal;
+  width: 80px;
+  word-wrap: break-word;
+}
+
+/** Edit Profile **/
+.ipProfileSection {
+  background: #FFF;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.ipProfileSection .cover {
+  display: block;
+  position: relative;
+  height: 38px;
+  overflow: hidden;
+  text-decoration: none;
+  background: #F3F3F3;
+  border-bottom: 1px solid #D8D8D8;
+  text-align: right;
+  line-height: 38px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 10px;
+  color: #666;
+  text-shadow: 0 1px 1px #FFF;
+}
+.ipProfileHeadline {
+  min-height: 145px;
+  position: relative;
+  width: 100%;
+  z-index: 4;
+}
+.ipProfileHeadline .name {
+  overflow: hidden;
+}
+.ipProfileHeadline .profilePicThumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+  display: block;
+  left: 15px;
+  margin-top: 0;
+  top: -32px;
+  padding: 1px;
+  position: absolute;
+}
+.profilePicLoading .profilePicThumb {
+  background: url('../images/ipl-48.gif') no-repeat center center;
+  box-shadow: none;
+}
+.ipProfileHeadline .profilePic {
+  background-color: #FFF;
+  border: 4px solid #FFF;
+  border-radius: 2px;
+  height: 160px;
+  width: 160px;
+  margin: 0;
+  display: block;
+}
+.profilePicLoading .profilePic {
+  opacity: .3;
+}
+.ipChat a.ipProfilePicButton {
+  display: none;
+  zoom: 1;
+  vertical-align: top;
+  position: absolute;
+  z-index: 5;
+  max-width: none;
+  bottom: 18px;
+  left: 27px;
+  top: auto;
+  width: 120px;
+}
+.ipChat .profilePicLoading.ipProfileHeadline .ipProfilePicButton {
+  display: none !important;
+}
+.ipProfileFileForm {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  left: 0px;
+}
+.ipProfileFileInput {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  text-align: right;
+  top: 0px;
+  left: 0px;
+}
+
+._4nap {
+  margin: 10px;
+  margin-left: 196px;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+.acw {
+  border-color: #e9e9e9;
+  background-color: #fff;
+}
+.acw:hover {
+  background-color: transparent;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAMAAAB/qqA+AAAAPFBMVEX////+/v73+Pn29/j6+vv4+fr7/Pz9/f36+/v8/Pz9/v78/P35+vv9/f75+fr8/f34+fn4+Pn5+vr7+/xLxrqoAAAALUlEQVR4XjXBxQEAIQAEsUFdTvrvlX1AwmXOyiDpolGI+pPVa+djEvThxZ4O3R43AOw2dZFPAAAAAElFTkSuQmCC);
+  background-repeat: repeat-x;
+  background-size: auto;
+  background-position: 0 0;
+}
+._1zq- {
+  border-top: 1px solid #DFDADA;
+}
+._4nap > ._1zq-:first-child {
+  border-top: 0;
+}
+.item {
+  position: relative;
+  padding-right: 8px;
+}
+.item .primary {
+  display: table-cell;
+  width: 2000px;
+}
+._1zq-.item .primarywrap {
+  margin-right: -8px;
+  padding-right: 8px;
+}
+.item .image {
+  display: table-cell;
+  overflow: hidden;
+  height: 16px;
+  width: 16px;
+}
+.item .image i {
+  margin: 10px;
+  position: relative;
+  display: block;
+  color: #788087;
+  font-size: 13px;
+}
+.item .content {
+  display: table-cell;
+  height: auto;
+  padding: 8px 0;
+  width: 2000px;
+  vertical-align: middle;
+  margin-left: 10px;
+  font-size: 13px;
+}
+.item.acw:hover .content .title,
+.item.acw:hover .image i {
+  color: #333;
+}
+.item .title {
+  color: #788087;
+  font-weight: bold;
+  height: auto;
+  line-height: 18px;
+  margin-bottom: -1px;
+  overflow: hidden;
+}
+
+/** Privacy **/
+.ipChatPrivacySettingsDialog {
+  min-width: 392px;
+  background: #fff;
+}
+.ipChatPrivacySettingsDialog .minWidthArea {
+  min-width: 355px;
+}
+.ipChatPrivacySettingsDialog .selected .selectedContent,
+.ipChatPrivacySettingsDialog .unselected .unselectedContent {
+  display: block;
+}
+.ipChatPrivacySettingsDialog .unselected .selectedContent {
+  display: none;
+}
+
+/** Theme Choose **/
+.details-wrapper {
+  background: #fff;
+  position: relative;
+  min-height: 300px;
+  max-height: 300px;
+}
+.side-nav-container {
+  box-shadow: 0 1px 11px rgba(0, 0, 0, 0.29);
+  user-select: none;
+  width: 200px;
+  z-index: 984;
+  float: left;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.side-nav-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+.side-nav-container ul .nav-list-item {
+  display: block;
+  line-height: normal;
+  padding: 0;
+  z-index: 1053;
+}
+.nav-list-item .theme-link {
+  display: block;
+  height: 28px;
+  overflow: hidden;
+  text-decoration: none;
+  width: 200px!important;
+}
+.nav-list-item .theme-link .hover-target {
+  display: table;
+  height: 28px;
+  color: #555;
+}
+.nav-list-item.selected .theme-link,
+.nav-list-item.selected .theme-link .hover-target,
+.nav-list-item.selected .theme-link:hover,
+.nav-list-item.selected .theme-link:hover .hover-target,
+.nav-list-item .theme-link:hover,
+.nav-list-item .theme-link:hover .hover-target {
+  background-color: rgb(179, 200, 51);
+  color: #fff;
+  font-weight: bold;
+}
+.nav-list-item .theme-link:hover,
+.nav-list-item .theme-link:hover .hover-target {
+  background-color: rgb(209, 221, 138);
+  color: #5E7E3B;
+  font-weight: normal;
+}
+.side-nav-container ul .nav-list-item .theme-link .hover-target .title {
+  display: table-cell;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
+  padding-left: 13px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 166px;
+}
+
+
+.details-info {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  background: #f5f5f5;
+}
+.details-info .cover-container {
+  display: inline-block;
+  float: left;
+  margin: 0;
+}
+.details-info .cover-image {
+  box-shadow: 0 0 4px #8d8d8d;
+  width: 95px;
+  height: 95px;
+  background: transparent url('../images/ipl-16.gif') center center no-repeat;
+}
+.details-info .cover-image.cover-loaded {
+  height: inherit;
+}
+.details-info .info-container {
+  margin-left: 108px;
+}
+.info-container .theme-title {
+  color: #333;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 35px;
+  margin-bottom: 1px;
+  white-space: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.info-container .theme-subtitle,
+.info-container .theme-author {
+  color: #8d8d8d;
+  display: block;
+  font-size: #333;
+  font-weight: 300;
+  vertical-align: top;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  margin-bottom: 7px;
+  max-height: 177px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.info-container .theme-actions {
+  margin: 4px 0;
+  padding: 6px 0 5px 0;
+  text-align: right;
+  border-top: 1px solid #ccc;
+}
+.uiButtonGroupItem.firstItem .ibtn {
+  border-right: 0 none;
+}
+.uiButtonGroup a.ibtn {
+  border-radius: 0;
+}
+.user-box-status {
+  position: absolute;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  right: 10px;
+  top: 50%;
+  margin-top: -6px;
+}
+.user-box-status.offline {
+  background-image: url('../images/icons/icon-status-offline.png');
+}
+.user-box-status.online {
+  background-image: url('../images/icons/icon-status-online.png');
+}
+
+.pic.img.pic-error {
+  line-height: 30px;
+  text-align: center;
+  font-size: 21px;
+  color: #F00;
+}

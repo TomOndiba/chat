@@ -1,0 +1,632 @@
+/*
+  Theme Name:   Facebook Lite
+  Author:       bystwn22
+  Author URI:   http://www.facebook.com/bystwn22
+  Theme URI:    http://www.facebook.com/bystwn22
+  Description:  <p>The clean and simple theme, inspired by Facebook.</p><blockquote>Facebook is an online social networking service. Its name comes from a colloquialism for the directory given to students at some American universities. Facebook was founded on February 4, 2004 by Mark Zuckerberg with his college roommates and fellow Harvard University students Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes. The founders had initially limited the website's membership to Harvard students, but later expanded it to colleges in the Boston area, the Ivy League, and Stanford University. It gradually added support for students at various other universities before it opened to high-school students, and eventually to anyone aged 13 and over. Facebook now allows anyone who claims to be at least 13 years old to become a registered user of the website.</blockquote>
+  Version:      1.8
+  Screenshot:   screenshots/facebook.jpg
+*/
+
+.ipNubButton {
+  background: #ebeef4;
+  border: 1px solid rgba(29, 49, 91, .3);
+  border-bottom: 0 none;
+  color: #333;
+  font-weight: bold;
+  box-shadow: inset 0 1px rgba(255, 255, 255, .5);
+
+  &:hover {
+    background-color: #f6f7f8;
+    text-decoration: none;
+  }
+  
+  .funhouse .close {
+    color: rgba(29, 49, 91, .3);
+    width: 16px;
+    text-align: center;
+    height: 16px;
+    font-size: 15px;
+  }
+
+  .funhouse .close:hover {
+    color: #FFFFFF;
+    background: #6382B0;
+  }
+}
+
+.ipChatTab .name {
+  color: #141823;
+  text-shadow: 0 1px rgba(255, 255, 255, .5);
+}
+
+/** Notification Bubbles **/
+._51jx, ._51jw {
+  color: #fff;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+._51jx {
+  background-color: #DE111E;
+  background-image: linear-gradient(bottom, #DE101A, #F73841);
+  background-position: 0 0;
+  border-radius: 3px;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.33);
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.25);
+}
+._51jw {
+  background-image: url(../../images/OE5JMPL0yg5.png);
+  background-position: 0 -672px;
+}
+
+._50-v.openToggler .ipNubButton:hover,
+._50-v.openToggler .ipNubButton {
+  background: #FFF;
+  border-top: 0 none;
+  z-index: 102;
+}
+
+._4oes .openToggler .uiToggleFlyout,
+._4oes .openToggler .uiToggleFlyout .openToggler .uiToggleFlyout {
+  bottom: 28px;
+}
+
+.ipNubFlyoutInner {
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+.ipNubFlyoutHeader,
+.ipNubFlyoutBody,
+.ipNubFlyoutFooter,
+.ipNubFlyoutAttachments {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-width: 0 1px;
+}
+.noTitlebar .ipNubFlyoutBody {
+  border-width: 1px;
+}
+.ipNubFlyoutTitlebar {
+  background-color: #6d84b4;
+  border: 1px solid rgba(0, 39, 121, .76);
+  border-bottom: none;
+  cursor: pointer;
+}
+.focusedTab .ipNubFlyoutTitlebar,
+.ipNubFlyoutTitlebar:hover,
+.menuOpened .ipNubFlyoutTitlebar {
+  background-color: #627bae;
+}
+.ipNubFlyoutTitlebar .button {
+  color: #D0DAE7;
+}
+.ipNubFlyoutTitlebar .button:active,
+.ipNubFlyoutTitlebar .button:focus,
+.ipNubFlyoutTitlebar .button:hover {
+  color: #fff;
+}
+.ipNubFlyoutTitlebar .titlebarLabel,
+._50mz .titlebar .titlebarTextWrapper {
+  color: #fff;
+}
+.ipNubFlyoutTitlebar .titlebarLabel h4 {
+  font-weight: bold;
+}
+
+.ipNubFlyoutHeader ._1sk6 {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.ipNubFlyoutFooter {
+  ._552h {
+    border-top: 1px solid rgba(93, 93, 93, 0.3);
+  }
+
+  .emoticonsPanel {
+    &.openToggler .emoteTogglerImg {
+      background-color: #DBDBDB;
+      color: #363636;
+    }
+
+    .panelFlyout {
+      background-color: #fff;
+      border: 1px solid #DBDBDB;
+      border-bottom-width: 2px;
+      right: 0;
+      bottom: 28px;
+
+      ._5906 {
+        background: rgb(240, 240, 240);
+        border-bottom: 1px solid #D9D9DA;
+      }
+
+      & ._59wb,
+      & ._58_x {
+        border-left: 1px solid rgba(0, 0, 0, .1);
+      }
+
+      ._58_w {
+        border-right: 1px solid rgba(0, 0, 0, .1);
+      }
+
+      ._55bn {
+        border-right: 1px solid rgba(0, 0, 0, .1);
+      }
+      
+      ._55bo {
+        background: #808080;
+      }
+
+      ._55bp {
+        &:hover {
+          background-color: #f2f2f2;
+        }
+        &:active {
+          background-color: #e6e6e6;
+        }
+      }
+    }
+
+    .panelCell {
+      &:hover {
+        outline: 1px solid silver;
+      }
+    }
+  }
+}
+
+.ipNubFlyoutAttachments {
+  .chatAttachmentShelf {
+    border-top: 1px solid rgba(0, 0, 0, .3);
+    background-color: #fff;
+
+    .uploadFileRow {
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      color: #666;
+      font-weight: bold;
+
+      .uiCloseButton {
+        color: #B3B3B3;
+
+        &:hover {
+          color: #666;
+        }
+      }
+
+      ._4-te {
+        overflow: visible;
+      }
+
+      .uiIconText {
+        ._3tn {
+          white-space: nowrap;
+          overflow: hidden;
+          display: block;
+          text-overflow: ellipsis;
+        }
+
+        i.img-ico {
+          top: -2px;
+        }
+      }
+    }
+  }
+}
+
+.ipNubFlyoutBody {
+  padding-right: 0;
+
+  ._511m {
+    height: auto;
+    margin: 5px;
+    margin-bottom: 0;
+    text-align: left;
+
+    ._511n {
+      font-size: 9px;
+      font-weight: bold;
+      padding: 0;
+      position: relative;
+      top: auto;
+      color: gray;
+    }
+  }
+
+  .ipChatConvItem {
+    ._50dw {
+      margin-left: 5px;
+      padding-top: 5px;
+      border-top: 1px solid #eee;
+      position: relative;
+    }
+
+    ._50ke {
+      float: left;
+      position: relative;
+    }
+
+    ._50x5 {
+      display: none;
+    }
+
+    .profileLink {
+      display: block;
+      position: relative;
+      top: auto;
+
+      .profilePhoto {
+        
+      }
+    }
+
+    .messages {
+      margin-left: 40px;
+      padding-bottom: 10px;
+      min-height: 40px;
+    }
+
+    &._511o .messages {
+      margin-left: 0;
+    }
+
+    .metaInfoContainer {
+      background-color: #fff;
+      padding-left: 3px;
+      position: absolute;
+      right: 0;
+      top: -9px;
+      visibility: hidden;
+      color: gray;
+    }
+
+    &:hover .metaInfoContainer {
+      visibility: visible;
+    }
+  }
+}
+
+._kso {
+  color: #333;
+  margin-bottom: 3px;
+  text-align: left;
+  padding: 0;
+  max-width: none !important;
+  line-height: normal;
+  font-size: 11px;
+
+  a {
+    color: #3b5998;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  & ._ksh::after {
+    border: 1px solid rgba(0, 0, 0, .1);
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .linkPreview {
+    margin-top: 2px;
+    max-height: 75px;
+    max-width: 98px;
+    min-width: 98px;
+    img {
+      &:extend(._kso .linkPreview);
+    }
+    ._ksh {
+      img {
+        &:extend(._kso .linkPreview);
+      }
+    }
+  }
+}
+
+._510g {
+  clear: both;
+  color: #a6a6a6;
+  margin-left: 26px;
+  padding-bottom: 5px;
+  -webkit-user-select: none;
+  visibility: hidden;
+}
+
+
+.tipsy {
+  opacity: 1 !important;
+
+  .tipsy-inner {
+    background-color: #282828;
+    color: #fff;
+    font-size: 11px;
+    line-height: 14px;
+    padding: 4px 8px;
+    text-align: left;
+    border-radius: 0;
+  }
+}
+
+.fbButtons(@b, @cr, @bc, @b1, @b2, @s ) {
+  border-color: @b;
+  color: @cr;
+  background-color: @bc;
+  background-image: linear-gradient(@b1, @b2);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 @s;
+}
+.ipChat .ibtn {
+  &, &:hover, &:focus, &:active, &:visited {
+    .fbButtons( #CDCED0 #C5C6C8 #B6B7B9, #333, #eee, #f5f6f6, #e4e4e3, #fff );
+  }
+  &:active {
+    border-color: #777 #777 #666;
+  }
+
+  &.ibtni, &.ibtni:hover, &.ibtni:focus, &.ibtni:active, &.ibtni:visited {
+    .fbButtons( #29447e #29447e #1a356e, #fff, #5B74A8, #637bad, #5872a7, #8a9cc2 );
+  }
+  &.ibtni:active {
+    border-color: #29447E;
+    background: #4F6AA3;
+  }
+
+  &.ibtns, &.ibtns:hover, &.ibtns:focus, &.ibtns:active, &.ibtns:visited {
+    .fbButtons( #3b6e22 #3b6e22 #2c5115, #fff, #69a74e, #75ae5c, #67a54b, #98c286 );
+  }
+  &.ibtns:active {
+    border-color: #3b6e22;
+    background: #609946;
+  }
+
+  &.ibtnd, &.ibtnd:hover, &.ibtnd:focus, &.ibtnd:active, &.ibtnd:visited {
+    .fbButtons( #C43C35 #C43C35 #882A25, #fff, #DF443F, #DF443F, #C43C35, #EE5F5B );
+  }
+  &.ibtnd:active {
+    border-color: #882A25;
+    background: #C43C35;
+  }
+
+  &, &:hover, &:focus, &:active, &:visited,
+  &.ibtni, &.ibtni:hover, &.ibtni:focus, &.ibtni:active, &.ibtni:visited,
+  &.ibtns, &.ibtns:hover, &.ibtns:focus, &.ibtns:active, &.ibtns:visited,
+  &.ibtnd, &.ibtnd:hover, &.ibtnd:focus, &.ibtnd:active, &.ibtnd:visited {
+    background-position: 0 0;
+    outline: none;
+    border-radius: 0;
+  }
+  &:active, &:focus,
+  &.ibtni:active, &.ibtni:focus,
+  &.ibtns:active, &.ibtns:focus,
+  &.ibtnd:active, &.ibtnd:focus {
+    filter: none;
+    box-shadow: none;
+  }
+}
+
+._1yv {
+  border-radius: 0;
+  box-shadow: none;
+
+  ._t {
+    ._1yw {
+      line-height: 28px;
+      border-color: #3b5998;
+      background: #6d84b4;
+      color: #fff;
+    }
+
+    .close-button {
+      color: #D0DAE7;
+      top: 6px;
+
+      &:hover {
+        color: #FFF;
+      }
+    }
+  }
+
+  ._13 {
+    box-shadow: none;
+    background: #fff;
+  }
+}
+
+
+.ipChatSidebar,
+._4i9v {
+  background-color: #f4f4f6;
+  border-right: 1px solid #cbcbcb;
+  -webkit-box-shadow: inset 2px 0 2px -2px #e0e0e0;
+}
+
+._4mq2 ._42fz .pic_container,
+._57dj ._42fz i.pic,
+._5468 ._42fz i.pic,
+._4-k7, ._4g5w, ._4g5x {
+  width: 32px;
+  height: 32px;
+}
+._4mq2 ._52zl,
+._4g5y {
+  line-height: 32px;
+}
+.user-box {
+  border: 1px solid #e0e0e1;
+  border-left: 0 none;
+  color: #333;
+  box-shadow: 6px 4px 4px #E0E0E0;
+}
+._59j- {
+  border-bottom: 1px solid #ccc;
+}
+
+.ipChat ._4oes {
+  background: #fff;
+  transition: background .1s;
+  border-top: 1px solid #fff;
+}
+
+.ipChatSidebarDropdown .uiCloseButton,
+.uiTypeaheadCloseButton,
+._4r38,
+.emoteTogglerImg i,
+._509w {
+  color: #B7B7B8;
+}
+.ipChatSidebarDropdown .uiCloseButton:hover,
+.uiTypeaheadCloseButton:hover,
+._4r38:hover,
+.emoteTogglerImg:hover i,
+._552o:hover ._509w {
+  color: #999999;
+}
+
+.uiSelector .uiMenu,
+.uiTypeaheadView ul {
+  border: 1px solid #777;
+  border-bottom: 2px solid #293e6a;
+  box-shadow: none;
+}
+.uiScrollableAreaGripper.whiteGripper {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+.uiMenuItem {
+  a {
+    &:hover, &:active, &:focus {
+      background-color: #6d84b4;
+      border-color: #3b5998;
+      color: #fff;
+    }
+  }
+}
+
+.jewelContent {
+  .messagesContent {
+    &:hover, &:active, &:focus {
+      &:extend(.uiMenuItem a:hover);
+      .content {
+        .author, .preview, .time {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.nav-list-item {
+  &.selected {
+    .theme-link {
+      &:hover, .hover-target, &:hover .hover-target {
+        &:extend(.uiMenuItem a:hover);
+      }
+      &:extend(.uiMenuItem a:hover);
+    }
+  }
+  .theme-link {
+    &:hover, &:hover .hover-target {
+      &:extend(.uiMenuItem a:hover);
+    }
+  }
+}
+
+.uiTypeaheadView {
+  li {
+    &.selected {
+      &:extend(.uiMenuItem a:hover);
+    }
+  }
+}
+
+
+.ipChatSidebar {
+  ._42fz {
+    a {
+      border-bottom: 1px solid transparent;
+      border-top: 1px solid transparent;
+      color: #141823;
+  
+      &.selected, &:hover {
+        background-color: #ececee;
+        border-color: #e0e0e1;
+      }
+
+      .icon_container {
+        &&&.dockedSidebar {
+          right: 25px;
+        }
+      }
+    }
+  }
+
+  &.dockedSidebar {
+    ._42fz {
+      a {
+        .icon_container {
+          right: 20px;
+          top: 13px;
+        }
+
+        &.selected, &:hover {
+          .icon_container {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ita-ppe-box {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.dlInfo {
+  .dlInfo-Sidebar {
+    background: #eee;
+
+    .dlInfo-Apps {
+      ul {
+        background: #fff;
+        padding: 5px;
+      }
+    }
+
+    .dlInfo-Speed {
+      ul {
+        background: #fff;
+        
+        li {
+          &.ptHead {
+            font-weight: bold;
+            color: #000;
+          }
+        }
+      }
+    }
+
+    .dlFileName {
+      font-weight: bold;
+    }
+  }
+  .dlInfo-Body {
+    h6 {
+      font-weight: bold;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 7px;
+    }
+  }
+}

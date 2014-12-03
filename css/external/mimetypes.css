@@ -1,0 +1,59 @@
+.img-ico {
+  background-image: url('../../images/icons/mime/default.png');
+}
+
+.img-ico.ico-js,
+.img-ico.ico-sql {
+  background-image: url('../../images/icons/mime/js.png');
+}
+.img-ico.ico-pdf {
+  background-image: url('../../images/icons/mime/pdf.png');
+}
+.img-ico.ico-doc,
+.img-ico.ico-docx {
+  background-image: url('../../images/icons/mime/doc.png');
+}
+.img-ico.ico-xls {
+  background-image: url('../../images/icons/mime/xls.png');
+}
+.img-ico.ico-ppt {
+  background-image: url('../../images/icons/mime/ppt.png');
+}
+.img-ico.ico-php {
+  background-image: url('../../images/icons/mime/php.png');
+}
+.img-ico.ico-txt,
+.img-ico.ico-ini,
+.img-ico.ico-log {
+  background-image: url('../../images/icons/mime/txt.png');
+}
+.img-ico.ico-zip,
+.img-ico.ico-tar,
+.img-ico.ico-gz,
+.img-ico.ico-rar,
+.img-ico.ico-7z {
+  background-image: url('../../images/icons/mime/zip.png');
+}
+.img-ico.ico-mp3,
+.img-ico.ico-amr,
+.img-ico.ico-wav,
+.img-ico.ico-wma {
+  background-image: url('../../images/icons/mime/mp3.png');
+}
+.img-ico.ico-exe {
+  background-image: url('../../images/icons/mime/exe.png');
+}
+.img-ico.ico-jpg,
+.img-ico.ico-gif,
+.img-ico.ico-bmp,
+.img-ico.ico-png,
+.img-ico.ico-ico {
+  background-image: url('../../images/icons/mime/jpg.png');
+}
+
+.img-ico.ico-ai {
+  background-image: url('../../images/icons/mime/ai.png');
+}
+.img-ico.ico-cdr {
+  background-image: url('../../images/icons/mime/cdr.png');
+}
